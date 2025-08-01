@@ -164,6 +164,17 @@ const Footer = () => {
               <p className="text-sm mt-1">
                 Crafted with 💖 and Miami Vice vibes in London
               </p>
+              <p className="text-sm mt-1">
+                Website created by{' '}
+                <a 
+                  href="https://bensai.co.uk" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-neon-teal hover:text-neon-pink transition-colors duration-300 font-medium"
+                >
+                  Bensai
+                </a>
+              </p>
             </div>
 
             {/* Playful Signoff */}
