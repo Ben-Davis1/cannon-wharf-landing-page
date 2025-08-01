@@ -34,7 +34,7 @@ const About = () => {
   return (
     <section id="about" className="py-20 relative overflow-hidden bg-gradient-to-br from-dark-bg to-dark-card/20">
       {/* Background Elements */}
-      <div className="absolute inset-0 retro-grid opacity-5"></div>
+      <div className="absolute inset-0 retro-grid opacity-5 pointer-events-none"></div>
       <div className="absolute top-0 left-0 w-64 h-64 bg-neon-pink/5 rounded-full blur-3xl"></div>
       <div className="absolute bottom-0 right-0 w-64 h-64 bg-neon-teal/5 rounded-full blur-3xl"></div>
 

@@ -65,7 +65,7 @@ const Services = () => {
   return (
     <section id="services" className="py-20 relative overflow-hidden">
       {/* Background Elements */}
-      <div className="absolute inset-0 retro-grid opacity-5"></div>
+      <div className="absolute inset-0 retro-grid opacity-5 pointer-events-none"></div>
       
       <div className="container mx-auto px-4">
         {/* Section Header */}

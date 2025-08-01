@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Effects */}
-      <div className="absolute inset-0 retro-grid opacity-20"></div>
+      <div className="absolute inset-0 retro-grid opacity-20 pointer-events-none"></div>
       <div className="absolute inset-0 bg-gradient-to-br from-dark-bg via-dark-bg/90 to-dark-card/50"></div>
       
       {/* Floating geometric shapes */}

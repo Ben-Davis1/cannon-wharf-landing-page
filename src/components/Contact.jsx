@@ -35,7 +35,7 @@ const Contact = () => {
   return (
     <section id="contact" className="py-20 relative overflow-hidden">
       {/* Background Elements */}
-      <div className="absolute inset-0 retro-grid opacity-5"></div>
+      <div className="absolute inset-0 retro-grid opacity-5 pointer-events-none"></div>
       <div className="absolute top-0 right-0 w-96 h-96 bg-neon-purple/10 rounded-full blur-3xl"></div>
       <div className="absolute bottom-0 left-0 w-96 h-96 bg-neon-pink/10 rounded-full blur-3xl"></div>
 

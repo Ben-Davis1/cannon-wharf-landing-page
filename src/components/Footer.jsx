@@ -46,7 +46,7 @@ const Footer = () => {
   return (
     <footer className="relative bg-gradient-to-br from-dark-card to-dark-bg border-t border-gray-800">
       {/* Background Elements */}
-      <div className="absolute inset-0 retro-grid opacity-5"></div>
+      <div className="absolute inset-0 retro-grid opacity-5 pointer-events-none"></div>
       
       <div className="container mx-auto px-4 py-16">
         {/* Main Footer Content */}
