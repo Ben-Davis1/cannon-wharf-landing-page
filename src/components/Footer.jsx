@@ -170,7 +170,7 @@ const Footer = () => {
                   href="https://bensai.co.uk" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="text-neon-teal hover:text-neon-pink transition-colors duration-300 font-medium"
+                  className="text-neon-teal hover:text-neon-pink transition-colors duration-300 font-medium underline hover:no-underline cursor-pointer z-10"
                 >
                   Bensai
                 </a>
